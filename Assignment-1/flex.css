@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+#prntdiv {
+  border: 2px solid black;
+  background-color: rgb(240, 240, 119);
+  height: 700px;
+  gap: 8px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: start; 
+  /** flex wrap krne pe liney, boxes niche ane ke baad gap a jata hai usko manage krne ke liye we use align content. */
+  align-items: ;
+  flex-direction: row;
+  flex-wrap: ;
+}
+
+.div-1 {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}
+.div-2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(14, 69, 88);
+}
+.div-3 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(5, 187, 247);
+}
+.div-4 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(42, 102, 82);
+}
